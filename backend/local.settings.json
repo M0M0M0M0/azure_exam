@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "",
+    "DB_CONNECTION": "Server=localhost,1433;Database=BATTLEGAME;User Id=sa;Password=Studio#Game2026;Encrypt=false;TrustServerCertificate=true"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}

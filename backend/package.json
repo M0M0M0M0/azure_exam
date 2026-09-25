@@ -1,0 +1,20 @@
+{
+  "name": "studio-game-functions",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main.js",
+  "scripts": {
+    "start": "func start --port 7071",
+    "dev": "func start --port 7071 --verbose"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.7.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.0.7030"
+  },
+  "allowScripts": {
+    "azure-functions-core-tools@4.15.1": true
+  }
+}
